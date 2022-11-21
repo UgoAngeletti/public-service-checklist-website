@@ -34,6 +34,10 @@
   align-items: center;
 }
 
+.container.flex-item {
+  position: relative;
+}
+
 .subheading.white {
   color: #fff;
 }
@@ -126,4 +130,25 @@
 .red-marking {
   color: #ff5f47;
   font-size: 150px;
+}
+
+.paragraph {
+  max-width: 550px;
+  color: #fff;
+  font-size: 17px;
+}
+
+.earth-day-button {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 15px 45px;
+  border-radius: 50px;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.evil-corporation-image {
+  position: absolute;
+  top: -256.5px;
 }
